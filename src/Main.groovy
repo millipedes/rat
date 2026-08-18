@@ -1,5 +1,5 @@
-import static Parsing.bind
-import static Parsing.parse_char
+import static ParsingCore.*
+import static Parsing.*
 
 static void main(String[] args) {
   def file = new File("resources/test.txt")
